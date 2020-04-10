@@ -1,0 +1,50 @@
+// menuData请求数据 
+// 一级菜单与二级菜单的区别是一级菜单带有component这个值，比如下面的短信管理就是只有一级菜单
+{
+    "errno": 0, 
+    "errmsg": "获取权限成功", 
+    "result": [
+        {
+            "index": "1", 
+            "title": "广告管理", 
+            "icon": "iconfont icon-guanggao", 
+            "children": [
+                {
+                    "index": "splashScreen", 
+                    "icon": "", 
+                    "title": "闪屏关羽配置", 
+                    "path": "/home/splashAdverse", 
+                    "component": "splashAdverse", 
+                    "isShow": true
+                }, 
+                {
+                    "index": "addSplashScreen", 
+                    "icon": "", 
+                    "title": "新增关羽广告", 
+                    "path": "/home/addAdverse", 
+                    "component": "addAdverse", 
+                    "isShow": false
+                }, 
+                
+            ]
+        }, 
+        {
+            "index": "message", 
+            "title": "短信管理", 
+            "icon": "iconfont icon-duanxinguanli", 
+            "path": "/home/message", 
+            "component": "message", 
+            "children": [
+                {
+                    "index": "addMessage", 
+                    "title": "新增短信", 
+                    "icon": "", 
+                    "path": "/home/addMessage", 
+                    "component": "addMessage", 
+                    "isShow": false
+                }
+                
+            ]
+        } 
+    ]
+}
