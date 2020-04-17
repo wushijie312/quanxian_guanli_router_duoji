@@ -1,7 +1,7 @@
 
 <template>
   <div class="nav_list">
-    addAdverse
+    demo1
   </div>
 </template>
 

@@ -1,7 +1,8 @@
 
 <template>
   <div class="nav_list">
-    addMessage
+    demo1
+    <router-view/>
   </div>
 </template>
 
