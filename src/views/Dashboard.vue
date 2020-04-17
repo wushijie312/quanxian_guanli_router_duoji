@@ -1,6 +1,7 @@
 // dashboard 伪代码
 <template>
   <div class="nav_list">
+    sdfsdf
     <div class="nav_list_item" v-for="(item,index) in navList" @click="goPage(item)" :key="index">
       <i :class="item.icon"></i>
       <h2>{{item.title}}</h2>

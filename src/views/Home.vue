@@ -9,7 +9,7 @@
 <script>
 export default {
   created() {
-  
+    console.log(this.$parent.menudata);
   },
   methods: {
    
